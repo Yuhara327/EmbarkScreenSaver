@@ -1,0 +1,36 @@
+window.onload = function() {
+    //var url = "a.jpg".split(',');
+    var url=[];
+    url[0] = '3.jpg';
+    url[1] = '7.jpg';
+    url[2] = '8.jpg';
+    url[3] = '14.jpg';
+    url[4] = '16.jpg';
+    url[5] = '20.jpg';
+    url[6] = '21.jpg';
+    url[7] = '23.jpg';
+    url[8] = '29.jpg';
+    url[9] = '30.jpg';
+    url[10] = '37.jpg';
+    url[11] = '41.jpg';
+    url[12] = '45.jpg';
+    url[13] = '46.jpg';
+    url[14] = '48.jpg';
+    url[15] = '51.jpg';
+    url[17] = '55.jpg';
+    url[18] = '56.jpg';
+    url[19] = '57.jpg';
+    url[20] = '64.jpg';
+    url[21] = '2.jpg';
+    url[22] = '12.jpg';
+    url[23] = '13.jpg';
+    url[24] = '15.jpg';
+    url[25] = '24.jpg';
+    url[26] = '33.jpg';
+    url[27] = '67.jpg';
+    url[28] = '66.jpg';
+    var n = Math.floor(Math.random()*url.length);
+    var elm = document.getElementById("background");
+    elm.style.backgroundImage = 'url(./image/' + url[n] + ')';
+}
+ 
