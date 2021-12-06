@@ -6,5 +6,5 @@ Chromeの拡張機能Embarkに似せたMacのスクリーンセーバーです�
 # Platform
 MacOS
 
-#Download
-(Release)[https://github.com/Yuhara327/EmbarkScreenSaver/releases/tag/v1.0]
+# Download
+[Release](https://github.com/Yuhara327/EmbarkScreenSaver/releases/tag/v1.0)
